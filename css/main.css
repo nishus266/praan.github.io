@@ -1,0 +1,175 @@
+.seo{
+float:left;
+height:auto;
+width:100%;
+}
+.g1{
+background:linear-gradient(white,#05386B);
+background-repeat:no-repeat;
+text-align:center;
+line-height:1.5;
+margin-left:0px;
+margin-right:0px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.exper{
+float:left;
+width:100%;
+}
+.footer{
+float:left;
+width:100%;
+background-color:#05386B;
+}
+.about{
+float:left;
+width:30%;
+margin-left:30px;
+display:inline-block;
+}
+.contact{
+float:left;
+width:30%;
+margin-left:30px;
+display:inline-block;
+}
+.email{
+float:left;
+width:30%;
+margin-left:30px;
+display:inline-block;
+}
+.header{
+float:left;
+width:100%;
+height:100px;
+}
+.logo{
+width:100px;
+height:100px;
+float:left;
+}
+.h3head{
+margin-left:20px;
+color:#333;
+font-color:#333;
+float:left;
+}
+.info{
+float:left;
+width:100%;
+
+}
+.hsec{
+float:left;
+width:100%;
+}
+.web{
+float:left;
+width:25%;
+background-color:#05386B;
+opacity:.6;
+color:white;
+}
+.grap{
+float:left;
+width:25%;
+background-color:#FC4445;
+opacity:.6;
+color:white;
+}
+.grap1{
+float:left;
+width:25%;
+background-color:#05386B;
+opacity:.6;
+color:white;
+}
+.grap2{
+float:left;
+width:25%;
+background-color:#FC4445;
+opacity:.6;
+color:white;
+}
+.hsec h2{
+color:white;
+font-size:40px;
+}
+.in1{
+float:left;
+width:100%;
+}
+.in1 h1{
+color:white;
+font-size:100px;
+
+}
+.nav{
+display:inline-flex;
+}
+.nav span{
+padding:20px;
+color:#333;
+}
+.anim{
+float:left;
+width:100%;
+background: url("img/img.jpg") no-repeat;
+height:auto;
+opacity:.7;
+}
+.anim1{
+float:left;
+width:100%;
+background: url("img/img1.jpg") no-repeat;
+height:auto;
+opacity:.7;
+animation-name:imgc;
+animation-duration:1s;
+}
+@keyframes imgc{ 
+from{transform:translate(50px,0px);opacity:0;}to{transform:translate(0px,0px);opacity:.7;}
+}
+.s1{
+animation-name:g1a;
+animation-duration:8s;
+}
+.anim img{
+width:300px;
+height:80px;
+}
+@keyframes g1a{
+    0%{margin-left:20px;opacity:0;transform: translate(-400px,150px);}
+    70%{opacity:.7;}
+    100%{opacity:1;}
+}
+.s2{
+animation-name:g2a;
+animation-duration:8s;
+}
+@keyframes g2a{
+    0%{margin-left:20px;opacity:0;transform: translate(-400px,150px);}
+    70%{opacity:.7;}
+    100%{opacity:1;}
+}
+.s3{
+animation-name:g3a;
+animation-duration:8s;
+}
+@keyframes g3a{
+    0%{margin-right:20px;opacity:0;transform: translate(400px,150px);}
+    70%{opacity:.7;}
+    100%{opacity:1;}
+}
+
+
+.s4{
+animation-name:g4a;
+animation-duration:8s;
+}
+@keyframes g4a{
+    0%{margin-right:20px;opacity:0;transform: translate(400px,150px);}
+    70%{opacity:.7;}
+    100%{opacity:1;}
+}
